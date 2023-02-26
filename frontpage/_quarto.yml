@@ -6,8 +6,9 @@ project:
 website:
   title: "Enough R to write a thesis"
   favicon: figures/favicon.png
-  repo-url: https://github.com/biostats-r/biostats/biostats-r.github.io
+  repo-url: https://github.com/biostats-r/biostats-r.github.io
   repo-actions: [edit, issue]
+  repo-subdir: frontpage
 #  sharing: [twitter, facebook]
   twitter-card: true
   navbar: 
