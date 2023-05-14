@@ -52,7 +52,7 @@ knitr::include_graphics("figures/stats.jpg")
 Coming soon!
 :::
 
-### <a class = "book" href = "quarto/index.html">Reproducible documents with R</a> 
+### <a class = "book" href = "biostats/quarto/index.html">Reproducible documents with R</a> 
 
 ::: {layout="[[25,75]]"}
 ```{r}
@@ -70,7 +70,7 @@ Quarto is the successor to R markdown (our earlier [R markdown](biostats/rmarkdo
 All the biostats books were written in R markdown or quarto; you can see the source code in our [repo](https://github.com/biostats-r/biostats) on GitHub.
 :::
 
-### <a class = "book" href = "github/index.html">Git and GitHub</a> 
+### <a class = "book" href = "biostats/github/index.html">Git and GitHub</a> 
 
 ::: {layout="[[25,75]]"}
 ```{r git, echo = FALSE, fig.alt="git logo", out.width= "25%", out.extra='style="float:left; padding:5px"'}
@@ -86,7 +86,7 @@ knitr::include_graphics("figures/github.jpg")
 Learn how to use version control with our step-by-step guide to setting up and using [git and GitHub](biostats/github/index.html) in RStudio.
 :::
 
-### <a class = "book" href = "package/index.html">Writing an R package</a> 
+### <a class = "book" href = "biostats/package/index.html">Writing an R package</a> 
 
 ::: {layout="[[25,75]]"}
 ```{r}
@@ -132,10 +132,10 @@ remotes::install_github("biostats-r/biostats.tutorials")
 
 These books are a collaboration between the [Department of Biological Sciences](https://www.uib.no/en/bio), [University of Bergen](https://www.uib.no/en) and the [Department of Mathematical Sciences](https://www.ntnu.edu/imf), [University of Trondheim](https://www.ntnu.edu/).
 
--   Dr Aud Halbritter
--   Dr Josh Lynn
--   Dr Emily G. Simmonds
--   Dr Jonathan Soule
--   Dr Richard J. Telford
+-   [Dr Aud Halbritter](https://github.com/audhalbritter)
+-   [Dr Josh Lynn](https://research.manchester.ac.uk/en/persons/joshua.lynn)
+-   [Dr Emily G. Simmonds](https://www.ntnu.edu/employees/emily.g.simmonds)
+-   [Dr Jonathan Soule](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)
+-   [Dr Richard J. Telford](https://github.com/richardjtelford/)
 
 This is [BioCeed](https://bioceed.w.uib.no/) product.
