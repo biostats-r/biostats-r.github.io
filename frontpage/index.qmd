@@ -22,7 +22,7 @@ a.book:active { color: #eeaa2c; text-decoration:none; font-weight:normal; }
 ::: {layout="[[25,75]]"}
 ```{r}
 #| label: working-in-r
-#| fig-link: workingInR/index.html
+#| fig-link: biostats/workingInR/index.html
 #| echo: false
 #| fig-alt: "Working in R logo"
 #| out-width: 300px
@@ -57,7 +57,7 @@ Coming soon!
 ::: {layout="[[25,75]]"}
 ```{r}
 #| label: markdown
-#| fig-link: quarto/index.html
+#| fig-link: biostats/quarto/index.html
 #| echo: false
 #| fig-alt: "Quarto markdown logo"
 #| out-width: 300px
@@ -75,7 +75,7 @@ All the biostats books were written in R markdown or quarto; you can see the sou
 ::: {layout="[[25,75]]"}
 ```{r git, echo = FALSE, fig.alt="git logo", out.width= "25%", out.extra='style="float:left; padding:5px"'}
 #| label: git
-#| fig-link: github/index.html
+#| fig-link: biostats/github/index.html
 #| echo: false
 #| fig-alt: "Git and GitHub logo"
 #| out-width: 300px
@@ -91,7 +91,7 @@ Learn how to use version control with our step-by-step guide to setting up and u
 ::: {layout="[[25,75]]"}
 ```{r}
 #| label: package
-#| fig-link: package/index.html
+#| fig-link: biostats/package/index.html
 #| echo: false
 #| fig-alt: "Writing an R package logo"
 #| out-width: 300px
@@ -128,6 +128,10 @@ remotes::install_github("biostats-r/biostats.tutorials")
 - [Bio104](https://github.com/biostats-r/Bio104_tutorial)
 - [Bio300b](https://biostats-r.github.io/bio300B/index.html)
 
+## Quarto thesis template
+
+Try our [thesis template](https://github.com/biostats-r/quartothesis) for your MSc thesis to make a fully reproducible thesis.
+
 ## The Biostats team
 
 These books are a collaboration between the [Department of Biological Sciences](https://www.uib.no/en/bio), [University of Bergen](https://www.uib.no/en) and the [Department of Mathematical Sciences](https://www.ntnu.edu/imf), [University of Trondheim](https://www.ntnu.edu/).
@@ -135,7 +139,7 @@ These books are a collaboration between the [Department of Biological Sciences](
 -   [Dr Aud Halbritter](https://github.com/audhalbritter)
 -   [Dr Josh Lynn](https://research.manchester.ac.uk/en/persons/joshua.lynn)
 -   [Dr Emily G. Simmonds](https://www.ntnu.edu/employees/emily.g.simmonds)
--   [Dr Jonathan Soule](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)
+-   [Dr Jonathan Soulé](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)
 -   [Dr Richard J. Telford](https://github.com/richardjtelford/)
 
 This is [BioCeed](https://bioceed.w.uib.no/) product.
