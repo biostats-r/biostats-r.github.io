@@ -27,7 +27,7 @@ a.book:active { color: #eeaa2c; text-decoration:none; font-weight:normal; }
 #| fig-alt: "Working in R logo"
 #| out-width: 300px
 #| out.extra: 'style="float:left; padding:5px"'
-knitr::include_graphics("figures/working.jpg")
+knitr::include_graphics("figures/1_workingR.png")
 ```
 
 Learn how to import, manipulate and visualise data with our [working in R](biostats/workingInR/index.html) book.
@@ -35,6 +35,21 @@ After an introduction to R, this book has a tidyverse flavour, showing how to ma
 It includes lots of exercises to hone your skills.
 :::
 
+### <a class = "book" href = "biostats/data_lifecycle/index.html">The data life-cycle</a> 
+
+::: {layout="[[25,75]]"}
+```{r}
+#| label: data-lifecycle
+#| fig-link: biostats/data_lifecycle/index.html
+#| echo: false
+#| fig-alt: "Data life-cycle book logo"
+#| out-width: 300px
+#| out.extra: 'style="float:left; padding:5px"'
+knitr::include_graphics("figures/7_data.png")
+```
+
+Your data are precious. Learn how to take care of them without [data life-cycle](biostats/data_lifecycle/index.html) book.
+:::
 
 
 ### Statistics in R 
@@ -46,7 +61,7 @@ It includes lots of exercises to hone your skills.
 #| fig-alt: "Statistics logo"
 #| out-width: 300px
 #| out.extra: 'style="float:left; padding:5px"'
-knitr::include_graphics("figures/stats.jpg")
+knitr::include_graphics("figures/2_stats.png")
 ```
 
 Coming soon!
@@ -62,7 +77,7 @@ Coming soon!
 #| fig-alt: "Quarto markdown logo"
 #| out-width: 300px
 #| out.extra: 'style="float:left; padding:5px"'
-knitr::include_graphics("figures/quarto.png")
+knitr::include_graphics("figures/3_quarto.png")
 ```
 
 Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in [quarto](biostats/quarto/index.html): no more copy-paste nightmares.
@@ -80,11 +95,29 @@ All the biostats books were written in R markdown or quarto; you can see the sou
 #| fig-alt: "Git and GitHub logo"
 #| out-width: 300px
 #| out.extra: 'style="float:left; padding:5px"'
-knitr::include_graphics("figures/github.jpg")
+knitr::include_graphics("figures/4_git.png")
 ```
 
 Learn how to use version control with our step-by-step guide to setting up and using [git and GitHub](biostats/github/index.html) in RStudio.
 :::
+
+
+### <a class = "book" href = "biostats/targets/index.html">Enough targets to Write a Thesis</a> 
+
+::: {layout="[[25,75]]"}
+```{r}
+#| label: targets
+#| fig-link: biostats/targets/index.html
+#| echo: false
+#| fig-alt: "Targets package logo"
+#| out-width: 300px
+#| out.extra: 'style="float:left; padding:5px"'
+knitr::include_graphics("figures/6_targets.png")
+```
+
+Learn how to run data analysis pipeline for reproducible and scalable workflows. Our guide to using the [targets package](biostats/targets/index.html) will show you how.
+:::
+
 
 ### <a class = "book" href = "biostats/package/index.html">Writing an R package</a> 
 
@@ -96,7 +129,7 @@ Learn how to use version control with our step-by-step guide to setting up and u
 #| fig-alt: "Writing an R package logo"
 #| out-width: 300px
 #| out.extra: 'style="float:left; padding:5px"'
-knitr::include_graphics("figures/package.jpg")
+knitr::include_graphics("figures/5_package.png")
 ```
 
 Want to make your code into an R package?
@@ -115,8 +148,12 @@ and shiny apps to explore some statistical concepts.
 
 These can be installed from [biostats apps and `learnr` tutorials](https://github.com/biostats-r/biostats.tutorials) with
 
-```{r eval = FALSE}
-# install remotes if you don't have it already
+```{r}
+#| label: biostats.tutorials
+#| echo: true
+#| eval: false
+
+# install `remotes` package if you don't have it already
 # install.packages("remotes")
 
 remotes::install_github("biostats-r/biostats.tutorials")
