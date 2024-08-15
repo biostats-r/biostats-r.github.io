@@ -48,7 +48,7 @@ It includes lots of exercises to hone your skills.
 knitr::include_graphics("figures/7_data.png")
 ```
 
-Your data are precious. Learn how to take care of them without [data life-cycle](biostats/data_lifecycle/index.html) book.
+Your data are precious. Learn how to take care of them with our [data life-cycle](biostats/data_lifecycle/index.html) book.
 :::
 
 
