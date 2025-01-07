@@ -82,7 +82,7 @@ knitr::include_graphics("figures/3_quarto.png")
 
 Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in [quarto](biostats/quarto/index.html): no more copy-paste nightmares.
 Quarto is the successor to R markdown.
-All the biostats books were written in R markdown or quarto; you can see the source code in our [repo](https://github.com/biostats-r/biostats) on GitHub.
+All the biostats books were written in quarto; you can see the source code in our [repo](https://github.com/biostats-r/biostats) on GitHub.
 :::
 
 ### <a class = "book" href = "biostats/github/index.html">Git and GitHub</a> 
