@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.6.39">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <title>Enough R to write a thesis</title>
 <style>
@@ -66,12 +66,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-3e476e15ae565c222d94875412ae43a1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d3043699f4f525e226433170f63674df.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-ad9be815f2c85c02edcafb19a227bb52.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b7273c9476e2b79b96fc63e34cd7985e.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -100,7 +100,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 <meta name="twitter:title" content="Enough R to write a thesis">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="figures/1_workingR.png">
+<meta name="twitter:image:alt" content="Working in R logo">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="nav-fixed">
 
@@ -121,7 +123,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
+<p><a href="https://biostats.w.uib.no/"><img src="https://biostats.w.uib.no/files/2020/01/biostats-button-res2.png" title="bioST@TS | When biology adds up, at last…" class="img-fluid"></a></p>
+</div></div>
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -150,13 +154,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul>
 </li>
   <li><a href="#biostats-apps-and-tutorials" id="toc-biostats-apps-and-tutorials" class="nav-link" data-scroll-target="#biostats-apps-and-tutorials">Biostats apps and tutorials</a></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a></li>
   <li><a href="#courses" id="toc-courses" class="nav-link" data-scroll-target="#courses">Courses</a></li>
   <li><a href="#quarto-thesis-template" id="toc-quarto-thesis-template" class="nav-link" data-scroll-target="#quarto-thesis-template">Quarto thesis template</a></li>
   <li><a href="#the-biostats-team" id="toc-the-biostats-team" class="nav-link" data-scroll-target="#the-biostats-team">The Biostats team</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/biostats-r/biostats-r.github.io/edit/main/frontpage/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/biostats-r/biostats-r.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div><section id="biostats-books-enough-r-to-write-a-thesis" class="level2"><h2 class="anchored" data-anchor-id="biostats-books-enough-r-to-write-a-thesis">Biostats books: Enough R to write a thesis</h2>
+<main class="content" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div><header id="title-block-header" class="quarto-title-block"></header><section id="biostats-books-enough-r-to-write-a-thesis" class="level2"><h2 class="anchored" data-anchor-id="biostats-books-enough-r-to-write-a-thesis">Biostats books: Enough R to write a thesis</h2>
 <p>The biostats <svg aria-hidden="true" role="img" viewbox="0 0 581 512" style="height:1em;width:1.13em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"></path></svg> books are written to give you enough <svg aria-hidden="true" role="img" viewbox="0 0 581 512" style="height:1em;width:1.13em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:steelblue;overflow:visible;position:relative;"><path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"></path></svg> skills to write a thesis.</p>
 <p>The books emphasis reproducible research.</p>
 <style>
@@ -237,7 +242,7 @@ a.book:active { color: #eeaa2c; text-decoration:none; font-weight:normal; }
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 75.0%;justify-content: flex-start;">
-<p>Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in <a href="biostats/quarto/index.html">quarto</a>: no more copy-paste nightmares. Quarto is the successor to R markdown (our earlier <a href="biostats/rmarkdown/index.html">R markdown</a> book is here). All the biostats books were written in R markdown or quarto; you can see the source code in our <a href="https://github.com/biostats-r/biostats">repo</a> on GitHub.</p>
+<p>Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in <a href="biostats/quarto/index.html">quarto</a>: no more copy-paste nightmares. Quarto is the successor to R markdown. All the biostats books were written in R markdown or quarto; you can see the source code in our <a href="https://github.com/biostats-r/biostats">repo</a> on GitHub.</p>
 </div>
 </div>
 </div>
@@ -313,6 +318,8 @@ a.book:active { color: #eeaa2c; text-decoration:none; font-weight:normal; }
 <span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"biostats-r/biostats.tutorials"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section><section id="packages" class="level2"><h2 class="anchored" data-anchor-id="packages">Packages</h2>
+<p>The <code>checker</code> package checks that students have the correct version of ‘R’, ‘R’ packages, ‘RStudio’ and other dependencies installed, and that the recommended ‘RStudio’ configuration has been applied. It uses yaml to record the settings.</p>
 </section><section id="courses" class="level2"><h2 class="anchored" data-anchor-id="courses">Courses</h2>
 <ul>
 <li><a href="https://github.com/biostats-r/Bio101_tutorial">Bio101</a></li>
@@ -560,8 +567,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -723,7 +728,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -1032,7 +1036,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in <span class="co">[</span><span class="ot">quarto</span><span class="co">](biostats/quarto/index.html)</span>: no more copy-paste nightmares.</span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>Quarto is the successor to R markdown (our earlier <span class="co">[</span><span class="ot">R markdown</span><span class="co">](biostats/rmarkdown/index.html)</span> book is here).</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>Quarto is the successor to R markdown.</span>
 <span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>All the biostats books were written in R markdown or quarto; you can see the source code in our <span class="co">[</span><span class="ot">repo</span><span class="co">](https://github.com/biostats-r/biostats)</span> on GitHub.</span>
 <span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
@@ -1110,27 +1114,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"biostats-r/biostats.tutorials"</span>)</span>
 <span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a><span class="fu">## Courses</span></span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a><span class="fu">## Packages</span></span>
 <span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio101</span><span class="co">](https://github.com/biostats-r/Bio101_tutorial)</span></span>
-<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio104</span><span class="co">](https://github.com/biostats-r/Bio104_tutorial)</span></span>
-<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio300b</span><span class="co">](https://biostats-r.github.io/bio300B/index.html)</span></span>
-<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quarto thesis template</span></span>
-<span id="cb2-183"><a href="#cb2-183" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-184"><a href="#cb2-184" aria-hidden="true" tabindex="-1"></a>Try our <span class="co">[</span><span class="ot">thesis template</span><span class="co">](https://github.com/biostats-r/quartothesis)</span> for your MSc thesis to make a fully reproducible thesis.</span>
-<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Biostats team</span></span>
-<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-188"><a href="#cb2-188" aria-hidden="true" tabindex="-1"></a>These books are a collaboration between the <span class="co">[</span><span class="ot">Department of Biological Sciences</span><span class="co">](https://www.uib.no/en/bio)</span>, <span class="co">[</span><span class="ot">University of Bergen</span><span class="co">](https://www.uib.no/en)</span> and the <span class="co">[</span><span class="ot">Department of Mathematical Sciences</span><span class="co">](https://www.ntnu.edu/imf)</span>, <span class="co">[</span><span class="ot">University of Trondheim</span><span class="co">](https://www.ntnu.edu/)</span>.</span>
-<span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Aud Halbritter</span><span class="co">](https://github.com/audhalbritter)</span></span>
-<span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Josh Lynn</span><span class="co">](https://research.manchester.ac.uk/en/persons/joshua.lynn)</span></span>
-<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Emily G. Simmonds</span><span class="co">](https://www.ntnu.edu/employees/emily.g.simmonds)</span></span>
-<span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Jonathan Soulé</span><span class="co">](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)</span></span>
-<span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Richard J. Telford</span><span class="co">](https://github.com/richardjtelford/)</span></span>
-<span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-196"><a href="#cb2-196" aria-hidden="true" tabindex="-1"></a>This is <span class="co">[</span><span class="ot">BioCeed</span><span class="co">](https://bioceed.w.uib.no/)</span> product.</span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a>The <span class="in">`checker`</span> package checks that students have the correct version of 'R', 'R' packages, 'RStudio' and other dependencies installed, and that the recommended 'RStudio' configuration has been applied.</span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a>It uses yaml to record the settings.</span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a><span class="fu">## Courses</span></span>
+<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-183"><a href="#cb2-183" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio101</span><span class="co">](https://github.com/biostats-r/Bio101_tutorial)</span></span>
+<span id="cb2-184"><a href="#cb2-184" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio104</span><span class="co">](https://github.com/biostats-r/Bio104_tutorial)</span></span>
+<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Bio300b</span><span class="co">](https://biostats-r.github.io/bio300B/index.html)</span></span>
+<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a><span class="fu">## Quarto thesis template</span></span>
+<span id="cb2-188"><a href="#cb2-188" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a>Try our <span class="co">[</span><span class="ot">thesis template</span><span class="co">](https://github.com/biostats-r/quartothesis)</span> for your MSc thesis to make a fully reproducible thesis.</span>
+<span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Biostats team</span></span>
+<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a>These books are a collaboration between the <span class="co">[</span><span class="ot">Department of Biological Sciences</span><span class="co">](https://www.uib.no/en/bio)</span>, <span class="co">[</span><span class="ot">University of Bergen</span><span class="co">](https://www.uib.no/en)</span> and the <span class="co">[</span><span class="ot">Department of Mathematical Sciences</span><span class="co">](https://www.ntnu.edu/imf)</span>, <span class="co">[</span><span class="ot">University of Trondheim</span><span class="co">](https://www.ntnu.edu/)</span>.</span>
+<span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Aud Halbritter</span><span class="co">](https://github.com/audhalbritter)</span></span>
+<span id="cb2-196"><a href="#cb2-196" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Josh Lynn</span><span class="co">](https://research.manchester.ac.uk/en/persons/joshua.lynn)</span></span>
+<span id="cb2-197"><a href="#cb2-197" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Emily G. Simmonds</span><span class="co">](https://www.ntnu.edu/employees/emily.g.simmonds)</span></span>
+<span id="cb2-198"><a href="#cb2-198" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Jonathan Soulé</span><span class="co">](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)</span></span>
+<span id="cb2-199"><a href="#cb2-199" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span><span class="co">[</span><span class="ot">Dr Richard J. Telford</span><span class="co">](https://github.com/richardjtelford/)</span></span>
+<span id="cb2-200"><a href="#cb2-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-201"><a href="#cb2-201" aria-hidden="true" tabindex="-1"></a>This is <span class="co">[</span><span class="ot">BioCeed</span><span class="co">](https://bioceed.w.uib.no/)</span> product.</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

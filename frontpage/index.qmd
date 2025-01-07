@@ -81,7 +81,7 @@ knitr::include_graphics("figures/3_quarto.png")
 ```
 
 Learn how to write reproducible documents (anything from a course assignment to a thesis or manuscript) in [quarto](biostats/quarto/index.html): no more copy-paste nightmares.
-Quarto is the successor to R markdown (our earlier [R markdown](biostats/rmarkdown/index.html) book is here).
+Quarto is the successor to R markdown.
 All the biostats books were written in R markdown or quarto; you can see the source code in our [repo](https://github.com/biostats-r/biostats) on GitHub.
 :::
 
@@ -158,6 +158,11 @@ These can be installed from [biostats apps and `learnr` tutorials](https://githu
 
 remotes::install_github("biostats-r/biostats.tutorials")
 ```
+
+## Packages
+
+The `checker` package checks that students have the correct version of 'R', 'R' packages, 'RStudio' and other dependencies installed, and that the recommended 'RStudio' configuration has been applied.
+It uses yaml to record the settings.
 
 ## Courses
 

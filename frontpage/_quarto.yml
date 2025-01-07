@@ -10,6 +10,7 @@ website:
   repo-actions: [edit, issue]
   repo-subdir: frontpage
 #  sharing: [twitter, facebook]
+  margin-header: "[![](https://biostats.w.uib.no/files/2020/01/biostats-button-res2.png 'bioST@TS | When biology adds up, at last&#8230;')](https://biostats.w.uib.no/)"
   twitter-card: true
   navbar: 
     logo: https://biostats.w.uib.no/files/2020/01/biostats-button-res2.png
