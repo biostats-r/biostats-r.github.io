@@ -125,7 +125,7 @@ Learn how to use version control with our step-by-step guide to setting up and u
 ::: {layout="[[25,75]]"}
 ```{r}
 #| label: targets
-#| fig-link: targets/index.html
+#| fig-link: biostats/targets/index.html
 #| echo: false
 #| fig-alt: "Targets logo"
 #| out-width: 300px
@@ -199,8 +199,8 @@ These books are a collaboration between the [Department of Biological Sciences](
 
 -   [Dr Aud Halbritter](https://github.com/audhalbritter)
 -   [Dr Josh Lynn](https://research.manchester.ac.uk/en/persons/joshua.lynn)
--   [Dr Emily G. Simmonds](https://www.ntnu.edu/employees/emily.g.simmonds)
--   [Dr Jonathan Soulé](https://www.uib.no/personer/Jonathan.Jean.Cornille.Soul%C3%A9)
+-   [Dr Emily G. Simmonds](https://www.research.ed.ac.uk/en/persons/emily-simmonds-2/)
+-   [Dr Jonathan Soulé](https://www4.uib.no/en/find-employees/Jonathan.Soul%C3%A9)
 -   [Dr Richard J. Telford](https://github.com/richardjtelford/)
 
 This is [BioCeed](https://bioceed.w.uib.no/) product.
