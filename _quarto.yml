@@ -6,11 +6,11 @@ project:
 book:
   title: "Enough R to write a thesis"
   subtitle: "From raw data to finished thesis"
-  site-url: "https://biostats-r.github.io/biostats"
+  site-url: "https://biostats-r.github.io/"
   favicon: figures/favicon.png
   date: today
   search: true
-  repo-url: https://github.com/biostats-r/
+  repo-url: https://github.com/biostats-r/biostats-r.github.io
   sharing: [twitter, facebook]
   margin-header: "[![](https://biostats.w.uib.no/files/2020/01/biostats-button-res2.png 'bioST@TS | When biology adds up, at last&#8230;'){fig-alt='Link to biostats website'}](https://biostats.w.uib.no/)"
   chapters:
